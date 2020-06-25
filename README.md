@@ -54,7 +54,7 @@ Use the 'export hardware' function in Vivado to hand over the hardware descripti
 In order to generate a device tree (dts) file from the hardware description a separate Xilinx tool (device-tree-xlnx) is needed. This tool can be installed as an addon into the Xilinx SDK.
 
   1. clone the [device-tree-xlnx](https://github.com/Xilinx/device-tree-xlnx) project.
-  2. In the Xlinix SDK open the Xilinx menu and open 'Repositories'. 
+  2. In the Xilinx SDK open the Xilinx menu and open 'Repositories'. 
   3. Click the 'new' button next to the 'global repositories' section and select the path to the checked out git repo.
   4. Create a new Board Support Package project. In the 'target hardware' section choose the Vivado exported wrapper. In the 'board support package OS' drop down choose 'device tree'.
   5. The 'board support settings' window will open. Here you can select various driver and device tree options. I'm using kernel version 2018.3
