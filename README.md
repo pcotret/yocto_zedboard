@@ -62,7 +62,7 @@ In order to generate a device tree (dts) file from the hardware description a se
 
 # 3. Generate fpga.bin from fpga.bit
 
-Use the [bit to bin](https://github.com/topic-embedded-products/meta-topic/blob/master/recipes-bsp/fpga/fpga-bit-to-bin/fpga-bit-to-bin.py) conversion script to convert the bit file to a bin file suitable for flashing on the SD card.
+Use the [bit to bin](https://github.com/topic-embedded-products/meta-topic/blob/zeus/recipes-bsp/fpga/fpga-bit-to-bin/fpga-bit-to-bin.py) conversion script to convert the bit file to a bin file suitable for flashing on the SD card.
 
 # 4. Yocto Linux image
 
