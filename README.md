@@ -47,7 +47,7 @@ The block design can be found in the github project. Start Vivado (I use version
 
 ## 1.1. Export .bit file
 
-Use the 'export hardware' function in Vivado to hand over the hardware description to the Xilinx SDK.  In the SDK click on the  hw\_platform system.hdf file and not the address of the GPIO interface: 0x41200000.
+Use the 'export hardware' function in Vivado to hand over the hardware description to the Xilinx SDK.  In the SDK click on the  hw\_platform system.hdf file and note the address of the GPIO interface: `0xe000a000` (base) and `0xe000afff` (high).
 
 # 2. Generate dts files
 
